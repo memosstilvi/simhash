@@ -1,6 +1,6 @@
 ##Simhash made simple
 
-####A simple python module that calculates calculates the Simhash value of documents.
+####A simple python module that calculates the Simhash value of documents.
 
 Simhash is a hashing technique that belongs to the LSH (Local Sensitive Hashing) algorithmic family.
 It was initially developed by Moses S. Charikar in 2002 and is described in detail in his [paper] (http://www.cs.princeton.edu/courses/archive/spring04/cos598B/bib/CharikarEstim.pdf).
@@ -26,7 +26,9 @@ More specifically, in order to calculate the simhash value of a document we perf
 
 ###Quick Use (from stdin)
 
-`cat YOUR_DOC | python simhash.py`
+`chmod +x simhash.py
+
+cat YOUR_DOC | python simhash.py`
 
 ###License
 
