@@ -29,7 +29,7 @@ More specifically, in order to calculate the simhash value of a document we perf
 ```
 chmod +x simhash.py
 
-cat YOUR_DOC | python simhash.py
+cat YOUR_DOC | python ./simhash.py
 ```
 
 ###License
