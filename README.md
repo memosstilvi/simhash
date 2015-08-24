@@ -26,9 +26,11 @@ More specifically, in order to calculate the simhash value of a document we perf
 
 ###Quick Use (from stdin)
 
-`chmod +x simhash.py
+```
+chmod +x simhash.py
 
-cat YOUR_DOC | python simhash.py`
+cat YOUR_DOC | python simhash.py
+```
 
 ###License
 
