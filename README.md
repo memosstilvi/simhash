@@ -17,6 +17,7 @@ By using simhash we no longer need a pair-wise comparison between all the docume
 After calculating the hash values for all the documents we just need to compare the ones that share the same (or similar) hash values which results in an O(n) complexity.
 
 More specifically, in order to calculate the simhash value of a document we perform the following steps:
+
 1. Split the document in tokens (words, characters or n-grams)
 2. Hash each token separately using MD5
 3. Calculate the bit representation of this MD5 hashes
