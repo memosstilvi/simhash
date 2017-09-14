@@ -1,6 +1,6 @@
-##Simhash made simple
+## Simhash made simple
 
-####A simple python module that calculates the Simhash value of documents.
+#### A simple python module that calculates the Simhash value of documents.
 
 Simhash is a hashing technique that belongs to the LSH (Local Sensitive Hashing) algorithmic family.
 It was initially developed by Moses S. Charikar in 2002 and is described in detail in his [paper] (http://www.cs.princeton.edu/courses/archive/spring04/cos598B/bib/CharikarEstim.pdf).
@@ -8,7 +8,7 @@ The main goal of this algorithm is to detect near duplicate documents, since sim
 have similar (or even the same) simhash value.
 A straightforward explanation of the Simhash algorithm can be found [here] (http://matpalm.com/resemblance/simhash/).
 
-###How it works
+### How it works
 
 The unique and most interesting characteristic of the Simhash algorithm is that near duplicate documents will most likely 
 have the same (or pretty similar) hash value. This feature makes it very useful when it comes to near duplicate document detection 
@@ -24,14 +24,10 @@ More specifically, in order to calculate the simhash value of a document we perf
 4. Calculate and apply a weight to each of the document’s tokens. In our case this weights are the term frequencies in the document.
 5. Merge the bit representations of all the tokens of the document in order to calculate the document’s final hash value.
 
-###Quick Use (from stdin)
+### Quick Use (from stdin)
 
 ```
 chmod +x simhash.py
 
 cat YOUR_DOC | python ./simhash.py
 ```
-
-###License
-
-Distributed under the MIT license. See `LICENSE` for more information.
